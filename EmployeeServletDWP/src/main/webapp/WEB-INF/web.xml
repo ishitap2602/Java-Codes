@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+    xmlns="https://jakarta.ee/xml/ns/jakartaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+    version="6.0"
+    id="EmployeeServletDWP">
+
+    <!-- Application display name -->
+    <display-name>EmployeeServletDWP</display-name>
+
+    <!-- ===================== -->
+    <!-- Welcome files         -->
+    <!-- ===================== -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.xhtml</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.xhtml</welcome-file>
+    </welcome-file-list>
+
+    <!-- ===================== -->
+    <!-- Optional: UTF-8 filter -->
+    <!-- Sets request/response encoding globally -->
+    <!-- ===================== -->
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <!-- Use Tomcat's built-in filter; alternatively, create your own filter class -->
+        <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- ===================== -->
+    <!-- Servlets              -->
+    <!-- ===================== -->
+
+    <!-- AddEmployeeServlet -> /addEmployee -->
+    <servlet>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <servlet-class>com.example.empmgmt.web.AddEmployeeServlet</servlet-class>
+        <!-- Optional: load on startup (smaller number loads earlier) -->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <url-pattern>/addEmployee</url-pattern>
+    </servlet-mapping>
+
+    <!-- UpdateEmployeeServlet -> /updateEmployee -->
+    <servlet>
+        <servlet-name>UpdateEmployeeServlet</servlet-name>
+        <servlet-class>com.example.empmgmt.web.UpdateEmployeeServlet</servlet-class>
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateEmployeeServlet</servlet-name>
+        <url-pattern>/updateEmployee</url-pattern>
+    </servlet-mapping>
+
+    <!-- DeleteEmployeeServlet -> /deleteEmployee -->
+    <servlet>
+        <servlet-name>DeleteEmployeeServlet</servlet-name>
+        <servlet-class>com.example.empmgmt.web.DeleteEmployeeServlet</servlet-class>
+        <load-on-startup>3</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteEmployeeServlet</servlet-name>
+        <url-pattern>/deleteEmployee</url-pattern>
+    </servlet-mapping>
+
+    <!-- ListEmployeesServlet -> /employees -->
+    <servlet>
+        <servlet-name>ListEmployeesServlet</servlet-name>
+        <servlet-class>com.example.empmgmt.web.ListEmployeesServlet</servlet-class>
+        <load-on-startup>4</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListEmployeesServlet</servlet-name>
+        <url-pattern>/listEmployees</url-pattern>
+    </servlet-mapping>
+
+    <!-- ===================== -->
+    <!-- Optional: Error pages -->
+    <!-- ===================== -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error/404.html</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error/500.html</location>
+    </error-page>
+
+</web-app>
