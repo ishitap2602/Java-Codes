@@ -1,13 +1,26 @@
 package com.test;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
+import jakarta.persistence.Cacheable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.NamedQueries;
+import jakarta.persistence.NamedQuery;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name="book")
+@NamedQueries({
+	@NamedQuery(name = "customquery", query="from Book b where b.b_name = :name")
+})
+
+@Cacheable
+@Cache(usage=CacheConcurrencyStrategy.READ_ONLY.READ_ONLY)
+
 public class Book {
 	
 	@Id
@@ -16,6 +29,10 @@ public class Book {
 	
 	private String b_name;
 	private String b_author;
+	@Override
+	public String toString() {
+		return "Book [id=" + id + ", b_name=" + b_name + ", b_author=" + b_author + ", b_price=" + b_price + "]";
+	}
 	private int b_price;
 	public int getId() {
 		return id;

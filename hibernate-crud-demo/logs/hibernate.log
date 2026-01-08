@@ -1,0 +1,1950 @@
+2026-01-08 12:49:10 DEBUG IntegratorServiceImpl:49 - Adding Integrator [org.hibernate.boot.beanvalidation.BeanValidationIntegrator].
+2026-01-08 12:49:10 DEBUG IntegratorServiceImpl:49 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2026-01-08 12:49:10 INFO  Version:45 - HHH000412: Hibernate ORM core version 7.0.0.Final
+2026-01-08 12:49:10 DEBUG Environment:162 - HHH000206: 'hibernate.properties' not found
+2026-01-08 12:49:10 DEBUG LocalXmlResourceResolver:87 - Checking public/system identifiers `-//Hibernate/Hibernate Configuration DTD 3.0//EN`/`http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd` as DTD references
+2026-01-08 12:49:10 DEBUG JaxbCfgProcessor:113 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-01-08 12:49:10 DEBUG Configuration:1104 - Building session factory using internal StandardServiceRegistryBuilder
+2026-01-08 12:49:10 DEBUG Configuration:1005 - Building session factory using provided StandardServiceRegistry
+2026-01-08 12:49:10 DEBUG RegionFactoryInitiator:117 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2026-01-08 12:49:10 DEBUG RegionFactoryInitiator:47 - HHH000026: Second-level cache disabled
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@d1f74b8
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@d1f74b8
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@d1f74b8
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@41394595
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@41394595
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration true_false -> org.hibernate.type.BasicTypeReference@3a0807b7
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@3a0807b7
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@21a5fd96
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@21a5fd96
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration byte -> org.hibernate.type.BasicTypeReference@5769e7ae
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration byte -> org.hibernate.type.BasicTypeReference@5769e7ae
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@5769e7ae
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration binary -> org.hibernate.type.BasicTypeReference@5c77053b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@5c77053b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration [B -> org.hibernate.type.BasicTypeReference@5c77053b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@26b894bd
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@26b894bd
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration image -> org.hibernate.type.BasicTypeReference@287f94b1
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration blob -> org.hibernate.type.BasicTypeReference@30b34287
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@30b34287
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@5489c777
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@3676ac27
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration short -> org.hibernate.type.BasicTypeReference@62f87c44
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration short -> org.hibernate.type.BasicTypeReference@62f87c44
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@62f87c44
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration integer -> org.hibernate.type.BasicTypeReference@48f5bde6
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration int -> org.hibernate.type.BasicTypeReference@48f5bde6
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@48f5bde6
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration long -> org.hibernate.type.BasicTypeReference@525d79f0
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration long -> org.hibernate.type.BasicTypeReference@525d79f0
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@525d79f0
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration float -> org.hibernate.type.BasicTypeReference@5149f008
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration float -> org.hibernate.type.BasicTypeReference@5149f008
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@5149f008
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration double -> org.hibernate.type.BasicTypeReference@7072bc39
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration double -> org.hibernate.type.BasicTypeReference@7072bc39
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@7072bc39
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@158d255c
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@158d255c
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@2ca65ce4
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@2ca65ce4
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration character -> org.hibernate.type.BasicTypeReference@327120c8
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration char -> org.hibernate.type.BasicTypeReference@327120c8
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@327120c8
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@5707c1cb
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration string -> org.hibernate.type.BasicTypeReference@2b5cb9b2
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@2b5cb9b2
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration nstring -> org.hibernate.type.BasicTypeReference@35038141
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration characters -> org.hibernate.type.BasicTypeReference@ecf9049
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration char[] -> org.hibernate.type.BasicTypeReference@ecf9049
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration [C -> org.hibernate.type.BasicTypeReference@ecf9049
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@672f11c2
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration text -> org.hibernate.type.BasicTypeReference@2970a5bc
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration ntext -> org.hibernate.type.BasicTypeReference@50305a
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration clob -> org.hibernate.type.BasicTypeReference@72efb5c1
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@72efb5c1
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration nclob -> org.hibernate.type.BasicTypeReference@6d511b5f
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@6d511b5f
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@41200e0c
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@40f33492
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@4fbdc0f0
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@2ad3a1bb
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@6bc28a83
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@324c64cd
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration Duration -> org.hibernate.type.BasicTypeReference@13579834
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@13579834
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@24be2d9c
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@24be2d9c
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@5bd73d1a
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@5bd73d1a
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@aec50a1
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@aec50a1
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@2555fff0
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@2555fff0
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@70d2e40b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@120f38e6
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@7a0e1b5e
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@7a0e1b5e
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@702ed190
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@173b9122
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@7c18432b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@7646731d
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@7646731d
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@70e29e14
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@3b1bb3ab
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration date -> org.hibernate.type.BasicTypeReference@5a4bef8
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@5a4bef8
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration time -> org.hibernate.type.BasicTypeReference@40bffbca
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@40bffbca
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@2449cff7
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@2449cff7
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@2449cff7
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration calendar -> org.hibernate.type.BasicTypeReference@42a9a63e
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@42a9a63e
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@42a9a63e
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@62da83ed
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@5d8445d7
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration instant -> org.hibernate.type.BasicTypeReference@37d80fe7
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@37d80fe7
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration uuid -> org.hibernate.type.BasicTypeReference@384fc774
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@384fc774
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@384fc774
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@e3cee7b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@71e9a896
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration class -> org.hibernate.type.BasicTypeReference@6b9267b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@6b9267b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration currency -> org.hibernate.type.BasicTypeReference@408b35bf
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration Currency -> org.hibernate.type.BasicTypeReference@408b35bf
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@408b35bf
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration locale -> org.hibernate.type.BasicTypeReference@29ad44e3
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@29ad44e3
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration serializable -> org.hibernate.type.BasicTypeReference@15bcf458
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@15bcf458
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration timezone -> org.hibernate.type.BasicTypeReference@5af9926a
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@5af9926a
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@43c67247
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@43c67247
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration url -> org.hibernate.type.BasicTypeReference@fac80
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@fac80
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration vector -> org.hibernate.type.BasicTypeReference@726386ed
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration float_vector -> org.hibernate.type.BasicTypeReference@649f2009
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration double_vector -> org.hibernate.type.BasicTypeReference@14bb2297
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration byte_vector -> org.hibernate.type.BasicTypeReference@69adf72c
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration row_version -> org.hibernate.type.BasicTypeReference@797501a
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration object -> org.hibernate.type.JavaObjectType@372b0d86
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@372b0d86
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration null -> org.hibernate.type.NullType@52eacb4b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@5528a42c
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@2a551a63
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@1a6f5124
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@1edb61b1
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@ec2bf82
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@cc62a3b
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@6cc0bcf6
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:423 - Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@29539e36
+2026-01-08 12:49:11 WARN  pooling:84 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-01-08 12:49:11 DEBUG pooling:383 - Initializing Connection pool with 1 Connections
+2026-01-08 12:49:11 DEBUG JdbcEnvironmentInitiator:432 - Database ->
+	   name : MySQL
+	version : 8.0.42
+	  major : 8
+	  minor : 0
+2026-01-08 12:49:11 DEBUG JdbcEnvironmentInitiator:443 - Driver ->
+	   name : MySQL Connector/J
+	version : mysql-connector-java-8.0.18 (Revision: fef2894d751d47223192b706977b4a5bc41e6be4)
+	  major : 8
+	  minor : 0
+2026-01-08 12:49:11 DEBUG JdbcEnvironmentInitiator:388 - JDBC version : 4.2
+2026-01-08 12:49:11 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-08 12:49:11 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-01-08 12:49:11 DEBUG IdentifierHelperBuilder:115 - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2026-01-08 12:49:11 DEBUG IdentifierHelperBuilder:208 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-01-08 12:49:11 INFO  pooling:182 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/hibernate_demo]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.42
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@33425811) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4b74b35)
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@e4e1ef5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6d11ceef)
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4cb2918c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@72e295cc)
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@c2584d3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6fa0450e)
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@37468787) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@51ec2856)
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@714f3da4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1caa9eb6)
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1f53481b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2fcd7d3f)
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@27e7c77f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6f70a21b)
+2026-01-08 12:49:11 DEBUG DdlTypeRegistry:62 - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6ae62c7e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2e869098)
+2026-01-08 12:49:11 DEBUG JdbcTypeRegistry:73 - addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2026-01-08 12:49:11 DEBUG JdbcTypeRegistry:73 - addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2026-01-08 12:49:11 DEBUG JdbcTypeRegistry:73 - addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2026-01-08 12:49:11 DEBUG JdbcTypeRegistry:73 - addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration null -> org.hibernate.type.NullType@26bbe604
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:402 - Type registration key [null] overrode previous entry : `org.hibernate.type.NullType@52eacb4b`
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@2(java.time.OffsetDateTime,3003)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration java.time.OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@3(java.time.ZonedDateTime,3003)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration java.time.ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration org.hibernate.type.OffsetTimeType -> basicType@4(java.time.OffsetTime,3007)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2026-01-08 12:49:11 DEBUG BasicTypeRegistry:398 - Adding type registration java.time.OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2026-01-08 12:49:11 DEBUG TypeConfiguration$Scope:197 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@34b9eb03] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@43fda8d9]
+2026-01-08 12:49:11 DEBUG Namespace:62 - Created database namespace [logicalName=Name[catalog=null, schema=null], physicalName=Name[catalog=null, schema=null]]
+2026-01-08 12:49:11 DEBUG EntityBinder:183 - Binding entity from annotated class: com.example.hibernate.entity.Customer
+2026-01-08 12:49:11 DEBUG AnnotatedColumn:278 - Binding column: DTYPE
+2026-01-08 12:49:11 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:11 DEBUG BasicValue:292 - Skipping column re-registration: customers.id
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: customers.email
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: customers.name
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: orders_ORDER
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: orders_KEY
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: orders_KEY
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG CollectionBinder:1092 - Binding collection role: com.example.hibernate.entity.Customer.orders
+2026-01-08 12:49:12 DEBUG EntityBinder:183 - Binding entity from annotated class: com.example.hibernate.entity.Order
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: DTYPE
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: orders.id
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: customer_id
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: order_date
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: orders.order_date
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: orders.status
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: orders.total
+2026-01-08 12:49:12 DEBUG EntityBinder:183 - Binding entity from annotated class: com.example.hibernate.entity.Department
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: DTYPE
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: departments.id
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: employees_ORDER
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: employees_KEY
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: employees_KEY
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG CollectionBinder:1092 - Binding collection role: com.example.hibernate.entity.Department.employees
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: departments.name
+2026-01-08 12:49:12 DEBUG EntityBinder:183 - Binding entity from annotated class: com.example.hibernate.entity.Employee
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: DTYPE
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: employees.id
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: department_id
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: null
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: employees.email
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: first_name
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: employees.first_name
+2026-01-08 12:49:12 DEBUG AnnotatedColumn:278 - Binding column: last_name
+2026-01-08 12:49:12 DEBUG BasicValue:292 - Skipping column re-registration: employees.last_name
+2026-01-08 12:49:12 DEBUG CollectionSecondPass:40 - Second pass for collection: com.example.hibernate.entity.Customer.orders
+2026-01-08 12:49:12 DEBUG CollectionBinder:2809 - Binding @OneToMany through foreign key: com.example.hibernate.entity.Customer.orders
+2026-01-08 12:49:12 DEBUG CollectionSecondPass:58 - Mapped collection key: customer_id, one-to-many: com.example.hibernate.entity.Order
+2026-01-08 12:49:12 DEBUG CollectionSecondPass:40 - Second pass for collection: com.example.hibernate.entity.Department.employees
+2026-01-08 12:49:12 DEBUG CollectionBinder:2809 - Binding @OneToMany through foreign key: com.example.hibernate.entity.Department.employees
+2026-01-08 12:49:12 DEBUG CollectionSecondPass:58 - Mapped collection key: department_id, one-to-many: com.example.hibernate.entity.Employee
+2026-01-08 12:49:12 DEBUG SessionFactoryImpl:230 - Building session factory
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:58 - Not known whether passed class name [com.example.hibernate.entity.Order] is safe
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:60 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.example.hibernate.entity.Order
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:58 - Not known whether passed class name [com.example.hibernate.entity.Customer] is safe
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:60 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.example.hibernate.entity.Customer
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:58 - Not known whether passed class name [com.example.hibernate.entity.Employee] is safe
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:60 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.example.hibernate.entity.Employee
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:58 - Not known whether passed class name [com.example.hibernate.entity.Department] is safe
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:60 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.example.hibernate.entity.Department
+2026-01-08 12:49:12 DEBUG SessionFactoryServiceRegistryImpl:103 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2026-01-08 12:49:12 DEBUG SessionFactoryImpl:249 - HHH000030: Instantiating factory with settings: {hibernate.format_sql=true, java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=C:\Users\vidhan.bhasme1\mla-dec-256-main\hibernate-crud-demo\target\classes;C:\Users\vidhan.bhasme1\.m2\repository\mysql\mysql-connector-java\8.0.18\mysql-connector-java-8.0.18.jar;C:\Users\vidhan.bhasme1\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\hibernate\orm\hibernate-core\7.0.0.Final\hibernate-core-7.0.0.Final.jar;C:\Users\vidhan.bhasme1\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar;C:\Users\vidhan.bhasme1\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\hibernate\models\hibernate-models\1.0.0.CR3\hibernate-models-1.0.0.CR3.jar;C:\Users\vidhan.bhasme1\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\vidhan.bhasme1\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\vidhan.bhasme1\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\vidhan.bhasme1\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\vidhan.bhasme1\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\vidhan.bhasme1\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\antlr\antlr4-runtime\4.13.2\antlr4-runtime-4.13.2.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.17.1\log4j-slf4j-impl-2.17.1.jar;C:\Users\vidhan.bhasme1\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar, java.vm.vendor=Microsoft, sun.arch.data.model=64, user.variant=, java.vendor.url=https://www.microsoft.com, user.timezone=Asia/Calcutta, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Microsoft\jdk-21.0.1.12-hotspot\bin, sun.java.command=com.example.hibernate.Main, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\vidhan.bhasme1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2023-10-17, java.home=C:\Program Files\Microsoft\jdk-21.0.1.12-hotspot, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=create, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.1+12-LTS, user.name=vidhan.bhasme1, stdout.encoding=UTF-8, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate_demo, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=Microsoft-8526870, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=https://github.com/microsoft/openjdk/issues, java.io.tmpdir=C:\Users\VIDHAN~1.BHA\AppData\Local\Temp\, java.version=21.0.1, user.dir=C:\Users\vidhan.bhasme1\mla-dec-256-main\hibernate-crud-demo, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@26582ca, native.encoding=Cp1252, java.library.path=C:\Program Files\Microsoft\jdk-21.0.1.12-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/vidhan.bhasme1/Downloads/sts-5.0.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.1.v20251108-1451/jre/bin/server;C:/Users/vidhan.bhasme1/Downloads/sts-5.0.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.1.v20251108-1451/jre/bin;C:\Program Files\Microsoft\jdk-21.0.1.12-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.23.9-hotspot\bin;C:\Program Files\Microsoft\jdk-17.0.15.6-hotspot\bin;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.9.10\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\vidhan.bhasme1\AppData\Local\Microsoft\WindowsApps;;C:\Users\vidhan.bhasme1\Downloads\sts-5.0.1.RELEASE;;., stderr.encoding=UTF-8, java.vendor=Microsoft, java.vm.info=mixed mode, sharing, java.vm.version=21.0.1+12-LTS, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(max)] under max; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(min)] under min; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sum)] under sum; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(avg)] under avg; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CountFunction@5d71b500] under count; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@1653b84e] under every; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@7f8a9454] under any; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(floor)] under floor; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ceiling)] under ceiling; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(mod)] under mod; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(abs)] under abs; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sign)] under sign; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sqrt)] under sqrt; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ln)] under ln; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(exp)] under exp; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(power)] under power; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(round)] under round; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sin)] under sin; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cos)] under cos; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(tan)] under tan; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(asin)] under asin; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(acos)] under acos; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan)] under atan; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan2)] under atan2; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@69ed5ea2] under sinh; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@56a4abd0] under cosh; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@5eed6dfb] under tanh; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@5600a5da] under pi; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@551be9f6] under log; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(coalesce)] under coalesce; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nullif)] under nullif; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(left)] under left; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(right)] under right; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(replace)] under replace; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(concat)] under concat; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lower)] under lower; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(upper)] under upper; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substring)] under substring; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(locate)] under locate; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(character_length)] under character_length; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : length -> character_length
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LocatePositionEmulation@57151b3a] under position; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InsertSubstringOverlayEmulation@53a50b0a] under overlay; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TrimFunction@102c18e] under trim; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastFunction@18dcb8a7] under cast; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@6dcab9d9] under collate; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ExtractFunction@4a50c746] under extract; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(least)] under least; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(greatest)] under greatest; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CoalesceIfnullEmulation@22d477c2] under ifnull; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lpad)] under lpad; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rpad)] under rpad; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LpadRpadPadEmulation@39832280] under pad; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastStrEmulation@26e8ff8c] under str; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.OrdinalFunction@448c92fc] under ordinal; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@76c86567] under format; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampaddFunction@34045582] under timestampadd; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampdiffFunction@40df6090] under timestampdiff; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : dateadd -> timestampadd
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : datediff -> timestampdiff
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@1d289d3f] under current_date; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@10f405ff] under current_time; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@7f27f59b] under current_timestamp; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : current date -> current_date
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : current time -> current_time
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : current timestamp -> current_timestamp
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@1c98b4eb] under local_date; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@45801322] under local_time; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@756b2d90] under local_datetime; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@3520958b] under offset_datetime; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : local date -> local_date
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : local time -> local_time
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : local datetime -> local_datetime
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : offset datetime -> offset_datetime
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@6cc64028] under instant; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : current_instant -> instant
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.SqlFunction@6a1568d6] under sql; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(soundex)] under soundex; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(radians)] under radians; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(degrees)] under degrees; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cot)] under cot; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log)] under log; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@551be9f6
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log2)] under log2; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log10)] under log10; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ltrim)] under ltrim; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rtrim)] under rtrim; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(octet_length)] under octet_length; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(reverse)] under reverse; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(space)] under space; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(repeat)] under repeat; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@bb3ecfe] under lpad; prior registration was NamedSqmFunctionTemplate(lpad)
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@5ec88f9e] under rpad; prior registration was NamedSqmFunctionTemplate(rpad)
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(day)] under day; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(month)] under month; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(year)] under year; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(hour)] under hour; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(minute)] under minute; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(second)] under second; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(microsecond)] under microsecond; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofweek)] under dayofweek; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofmonth)] under dayofmonth; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : day -> dayofmonth
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofyear)] under dayofyear; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(week)] under week; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(quarter)] under quarter; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(monthname)] under monthname; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayname)] under dayname; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_day)] under last_day; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(date)] under date; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(timestamp)] under timestamp; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(time)] under time; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_date)] under utc_date; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_time)] under utc_time; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_timestamp)] under utc_timestamp; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rand)] under rand; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(crc32)] under crc32; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha1)] under sha1; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha2)] under sha2; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_length)] under bit_length; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(octet_length)] under octet_length; prior registration was NamedSqmFunctionTemplate(octet_length)
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ascii)] under ascii; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(instr)] under instr; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substr; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@7a04f730] under position; prior registration was org.hibernate.dialect.function.LocatePositionEmulation@57151b3a
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(curtime)] under curtime; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(curdate)] under curdate; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(now)] under now; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TruncFunction@6af65f29] under trunc; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : truncate -> trunc
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(insert)] under insert; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@370c9018] under bitand; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@3c81cd82] under bitor; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@111c229c] under bitxor; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@49cb3881] under bitnot; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_and)] under bit_and; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_or)] under bit_or; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev)] under stddev; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_pop)] under stddev_pop; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_samp)] under stddev_samp; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(variance)] under variance; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_pop)] under var_pop; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_samp)] under var_samp; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(datediff)] under datediff; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(adddate)] under adddate; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(subdate)] under subdate; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(addtime)] under addtime; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(subtime)] under subtime; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@1a14fdf0] under format; prior registration was org.hibernate.dialect.function.FormatFunction@76c86567
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(makedate)] under makedate; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(maketime)] under maketime; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under localtimestamp; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under local_time; prior registration was org.hibernate.dialect.function.CurrentFunction@45801322
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under local_datetime; prior registration was org.hibernate.dialect.function.CurrentFunction@756b2d90
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@284bdeed] under pi; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@5600a5da
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@58b311ba] under chr; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:392 - Registering alternate key : char -> chr
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@482c351d] under sysdate; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(row_number)] under row_number; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lag)] under lag; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lead)] under lead; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(first_value)] under first_value; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_value)] under last_value; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nth_value)] under nth_value; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@6e9a0bea] under rank; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@28fc1132] under dense_rank; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@355ce6a6] under percent_rank; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@20440c6c] under cume_dist; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ListaggGroupConcatEmulation@41e9f86] under listagg; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.json.MySQLJsonValueFunction@3c7b137a] under json_value; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.json.MySQLJsonQueryFunction@447fa959] under json_query; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.json.MySQLJsonExistsFunction@5a4d4f9c] under json_exists; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.json.MySQLJsonObjectFunction@1b560eb0] under json_object; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.json.MySQLJsonArrayFunction@1a2ac487] under json_array; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.json.MySQLJsonArrayAggFunction@478fb7dc] under json_arrayagg; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.json.MySQLJsonObjectAggFunction@30f28b5] under json_objectagg; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(json_set)] under json_set; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(json_remove)] under json_remove; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(json_replace)] under json_replace; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(json_insert)] under json_insert; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(json_merge_patch)] under json_mergepatch; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(json_array_append)] under json_array_append; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(json_array_insert)] under json_array_insert; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:143 - Registered SqmSetReturningFunctionTemplate [org.hibernate.dialect.function.array.UnnestFunction@1e226bcd] under unnest; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:143 - Registered SqmSetReturningFunctionTemplate [org.hibernate.dialect.function.json.MySQLJsonTableFunction@752b69e3] under json_table; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:143 - Registered SqmSetReturningFunctionTemplate [org.hibernate.dialect.function.CteGenerateSeriesFunction@7d30007d] under generate_series; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@382d71c7] under hex; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@2ca54da9] under sha; prior registration was null
+2026-01-08 12:49:12 DEBUG SqmFunctionRegistry:128 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@34a20f16] under md5; prior registration was null
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - abs(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double acos(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - adddate(DATE datetime, INTEGER days)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - addtime(TIME datetime, TIME time)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Boolean any(BOOLEAN arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer ascii(STRING arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double asin(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double atan(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double atan2(NUMERIC arg0, NUMERIC arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - avg(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - bit_and(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer bit_length(STRING_OR_CLOB arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - bit_or(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - bitand(arg0, arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - bitnot(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - bitor(arg0, arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - bitxor(arg0, arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - cast(arg as Type)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - ceiling(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Character char(INTEGER arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer character_length(STRING_OR_CLOB arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Character chr(INTEGER arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - coalesce(arg0[, arg1[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String collate(STRING string as COLLATION collation)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String concat(STRING string0[, STRING string1[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double cos(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double cosh(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double cot(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Long count([distinct ]{arg|*})
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer crc32(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double cume_dist([arg0[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Date curdate()
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Date current date
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Time current time
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Timestamp current timestamp
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Date current_date
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Instant current_instant
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Time current_time
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Timestamp current_timestamp
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Time curtime()
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Date date(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer datediff(DATE end, DATE start)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer day(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String dayname(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer dayofmonth(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer dayofweek(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer dayofyear(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double degrees(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Long dense_rank([arg0[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Boolean every(BOOLEAN arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double exp(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - extract(TEMPORAL_UNIT field from TEMPORAL arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - first_valueANY value
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - floor(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String format(TEMPORAL datetime as STRING pattern)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String hex(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer hour(TIME arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - ifnull(arg0, arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Instant instant
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer instr(STRING string, STRING pattern[, INTEGER start[, INTEGER occurrence]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_array([arg0[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_array_append(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_array_insert(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_arrayagg(arg0[, arg1])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Boolean json_exists(IMPLICIT_JSON arg0, STRING arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_insert(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_mergepatch(IMPLICIT_JSON arg0, IMPLICIT_JSON arg1[, arg2[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_object( ... )
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_objectagg(arg0, arg1[, arg2, arg3])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_query( ... )
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_remove(IMPLICIT_JSON arg0, STRING arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_replace(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String json_set(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - json_value( ... )
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - lagANY value[, INTEGER offset[, ANY default]]
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Date last_day(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - last_valueANY value
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - leadANY value[, INTEGER offset[, ANY default]]
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String left(STRING string, INTEGER length)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer length(STRING_OR_CLOB arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String listagg(STRING arg0, STRING arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double ln(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - LocalDate local date
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - LocalDateTime local datetime
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - LocalTime local time
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - LocalDate local_date
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - LocalDateTime local_datetime
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - LocalTime local_time
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Time localtime
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Timestamp localtimestamp
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer locate(STRING pattern, STRING string[, INTEGER start])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double log(NUMERIC arg0[, NUMERIC arg1])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double log10(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double log2(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String lower(STRING string)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String lpad(string, length[, padding])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String ltrim(STRING string[, STRING characters])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Date makedate(INTEGER year, INTEGER dayofyear)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Time maketime(INTEGER hour, INTEGER min, INTEGER sec)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - max(COMPARABLE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - byte[] md5(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer microsecond(TIME arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - min(COMPARABLE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer minute(TIME arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer mod(INTEGER arg0, INTEGER arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer month(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String monthname(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Timestamp now()
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - nth_valueANY value, INTEGER nth
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - nullif(arg0, arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer octet_length(STRING_OR_CLOB arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - OffsetDateTime offset datetime
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - OffsetDateTime offset_datetime
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer ordinal(ENUM arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String overlay(STRING string placing STRING replacement from INTEGER start[ for INTEGER length])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double percent_rank([arg0[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double pi
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer position(STRING pattern in STRING string)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double power(NUMERIC arg0, NUMERIC arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer quarter(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double radians(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double rand([INTEGER seed])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Long rank([arg0[, ...]])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String repeat(STRING string, INTEGER times)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String replace(STRING string, STRING pattern, STRING replacement)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String reverse(STRING arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String right(STRING string, INTEGER length)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - round(NUMERIC number[, INTEGER places])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Long row_number()
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String rpad(string, length[, padding])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String rtrim(STRING string[, STRING characters])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer second(TIME arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - byte[] sha(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String sha1(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String sha2(arg0, arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer sign(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double sin(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double sinh(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String soundex(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String space(INTEGER arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Object sql
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double sqrt(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double stddev(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double stddev_pop(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double stddev_samp(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String str(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - subdate(DATE datetime, INTEGER days)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String substr(STRING string, INTEGER start[, INTEGER length])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - subtime(TIME datetime, TIME time)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - sum(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Timestamp sysdate()
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double tan(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double tanh(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String time(arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Timestamp timestamp(arg0[, arg1])
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Long|Double timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - trunc( ... )
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - truncate( ... )
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - String upper(STRING string)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Date utc_date
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Time utc_time
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Timestamp utc_timestamp
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double var_pop(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double var_samp(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Double variance(NUMERIC arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer week(DATE arg)
+2026-01-08 12:49:12 DEBUG HQL_FUNCTIONS:152 - Integer year(DATE arg)
+2026-01-08 12:49:12 DEBUG cache:49 - Starting QueryInterpretationCache(2048)
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:58 - Not known whether passed class name [com.example.hibernate.entity.Order] is safe
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:60 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.example.hibernate.entity.Order
+2026-01-08 12:49:12 DEBUG BytecodeProviderImpl:232 - HHH000513: Unable to create the ReflectionOptimizer for [com.example.hibernate.entity.Order]: private accessor [customer]
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:58 - Not known whether passed class name [com.example.hibernate.entity.Customer] is safe
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:60 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.example.hibernate.entity.Customer
+2026-01-08 12:49:12 DEBUG BytecodeProviderImpl:232 - HHH000513: Unable to create the ReflectionOptimizer for [com.example.hibernate.entity.Customer]: private accessor [email]
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:58 - Not known whether passed class name [com.example.hibernate.entity.Employee] is safe
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:60 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.example.hibernate.entity.Employee
+2026-01-08 12:49:12 DEBUG BytecodeProviderImpl:232 - HHH000513: Unable to create the ReflectionOptimizer for [com.example.hibernate.entity.Employee]: private accessor [department]
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:58 - Not known whether passed class name [com.example.hibernate.entity.Department] is safe
+2026-01-08 12:49:12 DEBUG ClassLoaderAccessImpl:60 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.example.hibernate.entity.Department
+2026-01-08 12:49:12 DEBUG BytecodeProviderImpl:232 - HHH000513: Unable to create the ReflectionOptimizer for [com.example.hibernate.entity.Department]: private accessor [employees]
+2026-01-08 12:49:12 DEBUG mutation:411 - Skipping collection (re)creation - com.example.hibernate.entity.Customer.orders
+2026-01-08 12:49:12 DEBUG mutation:444 - Skipping collection row deletions - com.example.hibernate.entity.Customer.orders
+2026-01-08 12:49:12 DEBUG mutation:462 - Skipping collection removals - com.example.hibernate.entity.Customer.orders
+2026-01-08 12:49:12 DEBUG mutation:411 - Skipping collection (re)creation - com.example.hibernate.entity.Department.employees
+2026-01-08 12:49:12 DEBUG mutation:444 - Skipping collection row deletions - com.example.hibernate.entity.Department.employees
+2026-01-08 12:49:12 DEBUG mutation:462 - Skipping collection removals - com.example.hibernate.entity.Department.employees
+2026-01-08 12:49:12 DEBUG creation:102 - Starting post-init callbacks
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : To-one key - NavigableRole[com.example.hibernate.entity.Order.customer]
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : Entity(com.example.hibernate.entity.Order) `staticFetchableList` generator
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[com.example.hibernate.entity.Customer.orders#{element}]) - element descriptor
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : PluralAttributeMapping(com.example.hibernate.entity.Customer.orders)#finishInitialization
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : PluralAttributeMapping(com.example.hibernate.entity.Customer.orders) - key descriptor
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : Entity(com.example.hibernate.entity.Customer) `staticFetchableList` generator
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : To-one key - NavigableRole[com.example.hibernate.entity.Employee.department]
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : Entity(com.example.hibernate.entity.Employee) `staticFetchableList` generator
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[com.example.hibernate.entity.Department.employees#{element}]) - element descriptor
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : PluralAttributeMapping(com.example.hibernate.entity.Department.employees)#finishInitialization
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : PluralAttributeMapping(com.example.hibernate.entity.Department.employees) - key descriptor
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : Entity(com.example.hibernate.entity.Department) `staticFetchableList` generator
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[com.example.hibernate.entity.Customer.orders#{element}]) - element descriptor
+2026-01-08 12:49:12 DEBUG creation:252 - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[com.example.hibernate.entity.Department.employees#{element}]) - element descriptor
+2026-01-08 12:49:12 DEBUG create:30 - Created new SQL alias : o1_0
+2026-01-08 12:49:12 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Order)] with identifierForTableGroup [com.example.hibernate.entity.Order] for NavigablePath [com.example.hibernate.entity.Order] 
+2026-01-08 12:49:12 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@70cf7d1e] with identifierForTableGroup [com.example.hibernate.entity.Order.customer] for NavigablePath [com.example.hibernate.entity.Order.customer] 
+2026-01-08 12:49:13 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Order]
+ |  +-EntityDelayedFetchImpl [com.example.hibernate.entity.Order.customer]
+ |  +-BasicFetch [com.example.hibernate.entity.Order.orderDate]
+ |  +-BasicFetch [com.example.hibernate.entity.Order.status]
+ |  \-BasicFetch [com.example.hibernate.entity.Order.total]
+
+2026-01-08 12:49:13 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (o1 : com.example.hibernate.entity.Order) {
+          primaryTableReference : orders as o1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (c1 : com.example.hibernate.entity.Order.customer) {
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:2673 - Static SQL for entity: com.example.hibernate.entity.Order
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:2678 -  Version select: select id from orders where id=?
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Insert (0): insert into orders (customer_id,order_date,status,total) values (?,?,?,?)
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Update (0): update orders set customer_id=?,order_date=?,status=?,total=? where id=?
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Delete (0): delete from orders where id=?
+2026-01-08 12:49:13 DEBUG create:30 - Created new SQL alias : c1_0
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Customer)] with identifierForTableGroup [com.example.hibernate.entity.Customer] for NavigablePath [com.example.hibernate.entity.Customer] 
+2026-01-08 12:49:13 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Customer]
+ |  +-BasicFetch [com.example.hibernate.entity.Customer.email]
+ |  +-BasicFetch [com.example.hibernate.entity.Customer.name]
+ |  \-DelayedCollectionFetch [com.example.hibernate.entity.Customer.orders]
+
+2026-01-08 12:49:13 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (c1 : com.example.hibernate.entity.Customer) {
+          primaryTableReference : customers as c1_0
+        }
+      }
+    }
+
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:2673 - Static SQL for entity: com.example.hibernate.entity.Customer
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:2678 -  Version select: select id from customers where id=?
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Insert (0): insert into customers (email,name) values (?,?)
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Update (0): update customers set email=?,name=? where id=?
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Delete (0): delete from customers where id=?
+2026-01-08 12:49:13 DEBUG create:30 - Created new SQL alias : e1_0
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Employee)] with identifierForTableGroup [com.example.hibernate.entity.Employee] for NavigablePath [com.example.hibernate.entity.Employee] 
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@627bcd7e] with identifierForTableGroup [com.example.hibernate.entity.Employee.department] for NavigablePath [com.example.hibernate.entity.Employee.department] 
+2026-01-08 12:49:13 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Employee]
+ |  +-EntityDelayedFetchImpl [com.example.hibernate.entity.Employee.department]
+ |  +-BasicFetch [com.example.hibernate.entity.Employee.email]
+ |  +-BasicFetch [com.example.hibernate.entity.Employee.firstName]
+ |  \-BasicFetch [com.example.hibernate.entity.Employee.lastName]
+
+2026-01-08 12:49:13 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (e1 : com.example.hibernate.entity.Employee) {
+          primaryTableReference : employees as e1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (d1 : com.example.hibernate.entity.Employee.department) {
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:2673 - Static SQL for entity: com.example.hibernate.entity.Employee
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:2678 -  Version select: select id from employees where id=?
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Insert (0): insert into employees (department_id,email,first_name,last_name) values (?,?,?,?)
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Update (0): update employees set department_id=?,email=?,first_name=?,last_name=? where id=?
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Delete (0): delete from employees where id=?
+2026-01-08 12:49:13 DEBUG create:30 - Created new SQL alias : d1_0
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Department)] with identifierForTableGroup [com.example.hibernate.entity.Department] for NavigablePath [com.example.hibernate.entity.Department] 
+2026-01-08 12:49:13 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Department]
+ |  +-DelayedCollectionFetch [com.example.hibernate.entity.Department.employees]
+ |  \-BasicFetch [com.example.hibernate.entity.Department.name]
+
+2026-01-08 12:49:13 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (d1 : com.example.hibernate.entity.Department) {
+          primaryTableReference : departments as d1_0
+        }
+      }
+    }
+
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:2673 - Static SQL for entity: com.example.hibernate.entity.Department
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:2678 -  Version select: select id from departments where id=?
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Insert (0): insert into departments (name) values (?)
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Update (0): update departments set name=? where id=?
+2026-01-08 12:49:13 DEBUG AbstractEntityPersister:393 -  Delete (0): delete from departments where id=?
+2026-01-08 12:49:13 DEBUG create:30 - Created new SQL alias : o1_0
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@63bca84d] with identifierForTableGroup [com.example.hibernate.entity.Customer.orders] for NavigablePath [com.example.hibernate.entity.Customer.orders] 
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Customer.orders.{element})] with identifierForTableGroup [com.example.hibernate.entity.Customer.orders.{element}] for NavigablePath [com.example.hibernate.entity.Customer.orders.{element}] 
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@43a59289] with identifierForTableGroup [com.example.hibernate.entity.Customer.orders.{element}.customer] for NavigablePath [com.example.hibernate.entity.Customer.orders.{element}.customer] 
+2026-01-08 12:49:13 DEBUG AST:67 - DomainResult Graph:
+ \-CollectionDomainResult [com.example.hibernate.entity.Customer.orders]
+
+2026-01-08 12:49:13 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        OneToManyTableGroup (o1 : com.example.hibernate.entity.Customer.orders) {
+          primaryTableReference : orders as o1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (c1 : com.example.hibernate.entity.Customer.orders.{element}.customer) {
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:13 DEBUG mutation:716 - Static SQL for collection: com.example.hibernate.entity.Customer.orders
+2026-01-08 12:49:13 DEBUG create:30 - Created new SQL alias : e1_0
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@18483b8b] with identifierForTableGroup [com.example.hibernate.entity.Department.employees] for NavigablePath [com.example.hibernate.entity.Department.employees] 
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Department.employees.{element})] with identifierForTableGroup [com.example.hibernate.entity.Department.employees.{element}] for NavigablePath [com.example.hibernate.entity.Department.employees.{element}] 
+2026-01-08 12:49:13 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@24fc2c80] with identifierForTableGroup [com.example.hibernate.entity.Department.employees.{element}.department] for NavigablePath [com.example.hibernate.entity.Department.employees.{element}.department] 
+2026-01-08 12:49:13 DEBUG AST:67 - DomainResult Graph:
+ \-CollectionDomainResult [com.example.hibernate.entity.Department.employees]
+
+2026-01-08 12:49:13 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        OneToManyTableGroup (e1 : com.example.hibernate.entity.Department.employees) {
+          primaryTableReference : employees as e1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (d1 : com.example.hibernate.entity.Department.employees.{element}.department) {
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:13 DEBUG mutation:716 - Static SQL for collection: com.example.hibernate.entity.Department.employees
+2026-01-08 12:49:13 DEBUG JtaPlatformInitiator:44 - No JtaPlatform was specified, checking resolver
+2026-01-08 12:49:13 DEBUG JtaPlatformResolverInitiator:32 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2026-01-08 12:49:13 DEBUG StandardJtaPlatformResolver:100 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-08 12:49:13 INFO  JtaPlatformInitiator:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-08 12:49:13 DEBUG EntityCopyObserverFactoryInitiator:37 - Configured EntityCopyObserver strategy: disallow
+2026-01-08 12:49:13 DEBUG SessionFactoryServiceRegistryImpl:103 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2026-01-08 12:49:13 DEBUG TypeConfiguration$Scope:209 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@34b9eb03] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@26d73519]
+2026-01-08 12:49:13 DEBUG NamedObjectRepository:324 - Checking 0 named HQL queries
+2026-01-08 12:49:13 DEBUG NamedObjectRepository:348 - Checking 0 named SQL queries
+2026-01-08 12:49:13 DEBUG SQL:130 - 
+    alter table employees 
+       drop 
+       foreign key FKgy4qe3dnqrm3ktd76sxp7n4c2
+2026-01-08 12:49:13 INFO  access:50 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@603f4e3e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2026-01-08 12:49:13 WARN  ExceptionHandlerLoggedImpl:25 - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table employees 
+       drop 
+       foreign key FKgy4qe3dnqrm3ktd76sxp7n4c2" via JDBC [Table 'hibernate_demo.employees' doesn't exist]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table employees 
+       drop 
+       foreign key FKgy4qe3dnqrm3ktd76sxp7n4c2" via JDBC [Table 'hibernate_demo.employees' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:93) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:221) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:207) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:479) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:244) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:217) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:225) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at java.util.HashMap.forEach(HashMap.java:1429) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:139) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:350) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:430) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1089) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1108) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at com.example.hibernate.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:15) [classes/:?]
+	at com.example.hibernate.util.HibernateUtil.<clinit>(HibernateUtil.java:9) [classes/:?]
+	at com.example.hibernate.dao.DepartmentDAO.create(DepartmentDAO.java:15) [classes/:?]
+	at com.example.hibernate.Main.main(Main.java:23) [classes/:?]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'hibernate_demo.employees' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	... 22 more
+2026-01-08 12:49:13 DEBUG SQL:130 - 
+    alter table orders 
+       drop 
+       foreign key FKpxtb8awmi0dk6smoh2vp1litg
+2026-01-08 12:49:13 WARN  ExceptionHandlerLoggedImpl:25 - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table orders 
+       drop 
+       foreign key FKpxtb8awmi0dk6smoh2vp1litg" via JDBC [Table 'hibernate_demo.orders' doesn't exist]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table orders 
+       drop 
+       foreign key FKpxtb8awmi0dk6smoh2vp1litg" via JDBC [Table 'hibernate_demo.orders' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:93) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:221) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:207) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:479) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:244) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:217) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:225) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at java.util.HashMap.forEach(HashMap.java:1429) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:139) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:350) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:430) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1089) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1108) [hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	at com.example.hibernate.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:15) [classes/:?]
+	at com.example.hibernate.util.HibernateUtil.<clinit>(HibernateUtil.java:9) [classes/:?]
+	at com.example.hibernate.dao.DepartmentDAO.create(DepartmentDAO.java:15) [classes/:?]
+	at com.example.hibernate.Main.main(Main.java:23) [classes/:?]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'hibernate_demo.orders' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79) ~[hibernate-core-7.0.0.Final.jar:7.0.0.Final]
+	... 22 more
+2026-01-08 12:49:13 DEBUG SQL:130 - 
+    drop table if exists customers
+2026-01-08 12:49:13 DEBUG SQL:130 - 
+    drop table if exists departments
+2026-01-08 12:49:13 DEBUG SQL:130 - 
+    drop table if exists employees
+2026-01-08 12:49:13 DEBUG SQL:130 - 
+    drop table if exists orders
+2026-01-08 12:49:13 DEBUG SQL:130 - 
+    create table customers (
+        id bigint not null auto_increment,
+        name varchar(100) not null,
+        email varchar(150) not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-01-08 12:49:13 INFO  access:50 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3add5e17] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2026-01-08 12:49:13 DEBUG SQL:130 - 
+    create table departments (
+        id bigint not null auto_increment,
+        name varchar(100) not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-01-08 12:49:14 DEBUG SQL:130 - 
+    create table employees (
+        department_id bigint not null,
+        id bigint not null auto_increment,
+        first_name varchar(80) not null,
+        last_name varchar(80) not null,
+        email varchar(150) not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-01-08 12:49:14 DEBUG SQL:130 - 
+    create table orders (
+        total decimal(12,2) not null,
+        customer_id bigint not null,
+        id bigint not null auto_increment,
+        order_date datetime(6) not null,
+        status enum ('CANCELLED','PAID','PENDING','SHIPPED') not null,
+        primary key (id)
+    ) engine=InnoDB
+2026-01-08 12:49:15 DEBUG SQL:130 - 
+    alter table customers 
+       add constraint UKrfbvkrffamfql7cjmen8v976v unique (email)
+2026-01-08 12:49:15 DEBUG SQL:130 - 
+    alter table departments 
+       add constraint UKj6cwks7xecs5jov19ro8ge3qk unique (name)
+2026-01-08 12:49:16 DEBUG SQL:130 - 
+    alter table employees 
+       add constraint UKj9xgmd0ya5jmus09o0b8pqrpb unique (email)
+2026-01-08 12:49:16 DEBUG SQL:130 - 
+    alter table employees 
+       add constraint FKgy4qe3dnqrm3ktd76sxp7n4c2 
+       foreign key (department_id) 
+       references departments (id)
+2026-01-08 12:49:17 DEBUG SQL:130 - 
+    alter table orders 
+       add constraint FKpxtb8awmi0dk6smoh2vp1litg 
+       foreign key (customer_id) 
+       references customers (id)
+2026-01-08 12:49:17 DEBUG factoryRegistry:51 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7fc1fd31
+2026-01-08 12:49:17 DEBUG factoryRegistry:73 - HHH020384: Registering SessionFactory: d8842c7b-9803-4240-93ad-9806d552632b (<unnamed>)
+2026-01-08 12:49:17 DEBUG factoryRegistry:80 - HHH020385: Not binding SessionFactory to JNDI, no JNDI name configured
+2026-01-08 12:49:17 DEBUG SessionFactoryImpl:364 - Instantiated factory
+2026-01-08 12:49:18 DEBUG StatisticsInitiator:47 - Statistics initialized [enabled=false]
+2026-01-08 12:49:18 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:18 DEBUG ActionQueue:289 - Executing identity-insert immediately
+2026-01-08 12:49:18 DEBUG SQL:130 - 
+    insert 
+    into
+        departments
+        (name) 
+    values
+        (?)
+2026-01-08 12:49:18 DEBUG results:56 - Initializer list is empty
+2026-01-08 12:49:18 DEBUG IdentifierGeneratorHelper:105 - Extracted generated values for entity [com.example.hibernate.entity.Department]: [1]
+2026-01-08 12:49:18 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:18 DEBUG Collections:189 - Collection found: [com.example.hibernate.entity.Department.employees with owner id '1'], was: [unreferenced collection] (initialized)
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:112 - Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+2026-01-08 12:49:18 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:18 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Department{name=Engineering, id=1, employees=[]}
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	748900 ns acquiring 1 JDBC connections
+	599300 ns releasing 1 JDBC connections
+	6464500 ns preparing 1 JDBC statements
+	14430800 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	14455800 ns executing 1 flushes (flushing a total of 1 entities and 1 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:18 DEBUG ActionQueue:289 - Executing identity-insert immediately
+2026-01-08 12:49:18 DEBUG SQL:130 - 
+    insert 
+    into
+        employees
+        (department_id, email, first_name, last_name) 
+    values
+        (?, ?, ?, ?)
+2026-01-08 12:49:18 DEBUG results:56 - Initializer list is empty
+2026-01-08 12:49:18 DEBUG IdentifierGeneratorHelper:105 - Extracted generated values for entity [com.example.hibernate.entity.Employee]: [1]
+2026-01-08 12:49:18 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2026-01-08 12:49:18 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:18 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Employee{firstName=Alice, lastName=Johnson, id=1, department=com.example.hibernate.entity.Department#1, email=alice@example.com}
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	557300 ns acquiring 1 JDBC connections
+	1198800 ns releasing 1 JDBC connections
+	170200 ns preparing 1 JDBC statements
+	31371400 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	914800 ns executing 1 flushes (flushing a total of 1 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:18 DEBUG ActionQueue:289 - Executing identity-insert immediately
+2026-01-08 12:49:18 DEBUG SQL:130 - 
+    insert 
+    into
+        employees
+        (department_id, email, first_name, last_name) 
+    values
+        (?, ?, ?, ?)
+2026-01-08 12:49:18 DEBUG results:56 - Initializer list is empty
+2026-01-08 12:49:18 DEBUG IdentifierGeneratorHelper:105 - Extracted generated values for entity [com.example.hibernate.entity.Employee]: [2]
+2026-01-08 12:49:18 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2026-01-08 12:49:18 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:18 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Employee{firstName=Bob, lastName=Singh, id=2, department=com.example.hibernate.entity.Department#1, email=bob@example.com}
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	1177700 ns acquiring 1 JDBC connections
+	1576100 ns releasing 1 JDBC connections
+	335800 ns preparing 1 JDBC statements
+	1342900 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	1374000 ns executing 1 flushes (flushing a total of 1 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:18 DEBUG ActionQueue:289 - Executing identity-insert immediately
+2026-01-08 12:49:18 DEBUG SQL:130 - 
+    insert 
+    into
+        customers
+        (email, name) 
+    values
+        (?, ?)
+2026-01-08 12:49:18 DEBUG results:56 - Initializer list is empty
+2026-01-08 12:49:18 DEBUG IdentifierGeneratorHelper:105 - Extracted generated values for entity [com.example.hibernate.entity.Customer]: [1]
+2026-01-08 12:49:18 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:18 DEBUG Collections:189 - Collection found: [com.example.hibernate.entity.Customer.orders with owner id '1'], was: [unreferenced collection] (initialized)
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:112 - Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+2026-01-08 12:49:18 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:18 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Customer{name=Acme Corp, orders=[], id=1, email=contact@acme.com}
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	1880800 ns acquiring 1 JDBC connections
+	519400 ns releasing 1 JDBC connections
+	676300 ns preparing 1 JDBC statements
+	6615500 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	2751500 ns executing 1 flushes (flushing a total of 1 entities and 1 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:18 DEBUG ActionQueue:289 - Executing identity-insert immediately
+2026-01-08 12:49:18 DEBUG SQL:130 - 
+    insert 
+    into
+        orders
+        (customer_id, order_date, status, total) 
+    values
+        (?, ?, ?, ?)
+2026-01-08 12:49:18 DEBUG results:56 - Initializer list is empty
+2026-01-08 12:49:18 DEBUG IdentifierGeneratorHelper:105 - Extracted generated values for entity [com.example.hibernate.entity.Order]: [1]
+2026-01-08 12:49:18 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2026-01-08 12:49:18 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:18 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Order{total=1999.99, id=1, orderDate=2026-01-08T12:49:18.409654900, customer=com.example.hibernate.entity.Customer#1, status=PAID}
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	693300 ns acquiring 1 JDBC connections
+	1808800 ns releasing 1 JDBC connections
+	130200 ns preparing 1 JDBC statements
+	814500 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	1112200 ns executing 1 flushes (flushing a total of 1 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:18 DEBUG ActionQueue:289 - Executing identity-insert immediately
+2026-01-08 12:49:18 DEBUG SQL:130 - 
+    insert 
+    into
+        orders
+        (customer_id, order_date, status, total) 
+    values
+        (?, ?, ?, ?)
+2026-01-08 12:49:18 DEBUG results:56 - Initializer list is empty
+2026-01-08 12:49:18 DEBUG IdentifierGeneratorHelper:105 - Extracted generated values for entity [com.example.hibernate.entity.Order]: [2]
+2026-01-08 12:49:18 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2026-01-08 12:49:18 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2026-01-08 12:49:18 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:18 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Order{total=349.50, id=2, orderDate=2026-01-08T12:49:18.608567300, customer=com.example.hibernate.entity.Customer#1, status=PENDING}
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	512200 ns acquiring 1 JDBC connections
+	576100 ns releasing 1 JDBC connections
+	148700 ns preparing 1 JDBC statements
+	784700 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	692500 ns executing 1 flushes (flushing a total of 1 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2026-01-08 12:49:18 DEBUG SQL:130 - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.name 
+    from
+        customers c1_0 
+    where
+        c1_0.id=?
+2026-01-08 12:49:18 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Customer.orders -> DelayedCollectionInitializer(com.example.hibernate.entity.Customer.orders)@788075428 (PluralAttribute(com.example.hibernate.entity.Customer.orders))
+	  com.example.hibernate.entity.Customer -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Customer)@1563833544 (SingleTableEntityPersister(com.example.hibernate.entity.Customer))
+
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	787500 ns acquiring 1 JDBC connections
+	568400 ns releasing 1 JDBC connections
+	883900 ns preparing 1 JDBC statements
+	712700 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:18 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:18 DEBUG hql:58 - HQL : from Customer
+2026-01-08 12:49:18 DEBUG ast:177 - SqmStatement Tree :
+    -> [select]
+      -> [query-spec]
+        -> [select]
+          -> [selection]
+            -> [root] - `com.example.hibernate.entity.Customer(1)`
+            <- [root] - `com.example.hibernate.entity.Customer(1)`
+          <- [selection]
+        <- [select]
+        -> [from]
+          -> [root] - `com.example.hibernate.entity.Customer(1)`
+          <- [root] - `com.example.hibernate.entity.Customer(1)`
+        <- [from]
+      <- [query-spec]
+    <- [select]
+
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : c1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Customer(1))] with identifierForTableGroup [com.example.hibernate.entity.Customer] for NavigablePath [com.example.hibernate.entity.Customer] 
+2026-01-08 12:49:19 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Customer(1)]
+ |  +-BasicFetch [com.example.hibernate.entity.Customer(1).email]
+ |  +-BasicFetch [com.example.hibernate.entity.Customer(1).name]
+ |  \-DelayedCollectionFetch [com.example.hibernate.entity.Customer(1).orders]
+
+2026-01-08 12:49:19 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (c1 : com.example.hibernate.entity.Customer(1)) {
+          primaryTableReference : customers as c1_0
+        }
+      }
+    }
+
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.name 
+    from
+        customers c1_0
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Customer(1).orders -> DelayedCollectionInitializer(com.example.hibernate.entity.Customer(1).orders)@391903689 (PluralAttribute(com.example.hibernate.entity.Customer.orders))
+	  com.example.hibernate.entity.Customer(1) -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Customer(1))@766732122 (SingleTableEntityPersister(com.example.hibernate.entity.Customer))
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	606700 ns acquiring 1 JDBC connections
+	523600 ns releasing 1 JDBC connections
+	712600 ns preparing 1 JDBC statements
+	640800 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG hql:58 - HQL : from Order
+2026-01-08 12:49:19 DEBUG ast:177 - SqmStatement Tree :
+    -> [select]
+      -> [query-spec]
+        -> [select]
+          -> [selection]
+            -> [root] - `com.example.hibernate.entity.Order(2)`
+            <- [root] - `com.example.hibernate.entity.Order(2)`
+          <- [selection]
+        <- [select]
+        -> [from]
+          -> [root] - `com.example.hibernate.entity.Order(2)`
+          <- [root] - `com.example.hibernate.entity.Order(2)`
+        <- [from]
+      <- [query-spec]
+    <- [select]
+
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : o1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Order(2))] with identifierForTableGroup [com.example.hibernate.entity.Order] for NavigablePath [com.example.hibernate.entity.Order] 
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@52efb338] with identifierForTableGroup [com.example.hibernate.entity.Order(2).customer] for NavigablePath [com.example.hibernate.entity.Order(2).customer] 
+2026-01-08 12:49:19 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Order(2)]
+ |  +-CircularFetchImpl [com.example.hibernate.entity.Order(2).customer]
+ |  +-BasicFetch [com.example.hibernate.entity.Order(2).orderDate]
+ |  +-BasicFetch [com.example.hibernate.entity.Order(2).status]
+ |  \-BasicFetch [com.example.hibernate.entity.Order(2).total]
+
+2026-01-08 12:49:19 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (o1 : com.example.hibernate.entity.Order(2)) {
+          primaryTableReference : orders as o1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (c1 : com.example.hibernate.entity.Order(2).customer) {
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        o1_0.id,
+        o1_0.customer_id,
+        o1_0.order_date,
+        o1_0.status,
+        o1_0.total 
+    from
+        orders o1_0
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Order(2) -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Order(2))@1900453377 (SingleTableEntityPersister(com.example.hibernate.entity.Order))
+	  com.example.hibernate.entity.Order(2).customer -> EntityDelayedFetchInitializer(com.example.hibernate.entity.Order(2).customer)@1102819865 (ToOneAttributeMapping(NavigableRole[com.example.hibernate.entity.Order.customer])@1059776883)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	680100 ns acquiring 1 JDBC connections
+	739500 ns releasing 1 JDBC connections
+	758400 ns preparing 1 JDBC statements
+	989300 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG hql:58 - HQL : from Employee
+2026-01-08 12:49:19 DEBUG ast:177 - SqmStatement Tree :
+    -> [select]
+      -> [query-spec]
+        -> [select]
+          -> [selection]
+            -> [root] - `com.example.hibernate.entity.Employee(3)`
+            <- [root] - `com.example.hibernate.entity.Employee(3)`
+          <- [selection]
+        <- [select]
+        -> [from]
+          -> [root] - `com.example.hibernate.entity.Employee(3)`
+          <- [root] - `com.example.hibernate.entity.Employee(3)`
+        <- [from]
+      <- [query-spec]
+    <- [select]
+
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : e1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Employee(3))] with identifierForTableGroup [com.example.hibernate.entity.Employee] for NavigablePath [com.example.hibernate.entity.Employee] 
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@58068b40] with identifierForTableGroup [com.example.hibernate.entity.Employee(3).department] for NavigablePath [com.example.hibernate.entity.Employee(3).department] 
+2026-01-08 12:49:19 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Employee(3)]
+ |  +-CircularFetchImpl [com.example.hibernate.entity.Employee(3).department]
+ |  +-BasicFetch [com.example.hibernate.entity.Employee(3).email]
+ |  +-BasicFetch [com.example.hibernate.entity.Employee(3).firstName]
+ |  \-BasicFetch [com.example.hibernate.entity.Employee(3).lastName]
+
+2026-01-08 12:49:19 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (e1 : com.example.hibernate.entity.Employee(3)) {
+          primaryTableReference : employees as e1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (d1 : com.example.hibernate.entity.Employee(3).department) {
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        e1_0.id,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.first_name,
+        e1_0.last_name 
+    from
+        employees e1_0
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Employee(3).department -> EntityDelayedFetchInitializer(com.example.hibernate.entity.Employee(3).department)@234107628 (ToOneAttributeMapping(NavigableRole[com.example.hibernate.entity.Employee.department])@1631904921)
+	  com.example.hibernate.entity.Employee(3) -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Employee(3))@653395108 (SingleTableEntityPersister(com.example.hibernate.entity.Employee))
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	667900 ns acquiring 1 JDBC connections
+	626600 ns releasing 1 JDBC connections
+	745600 ns preparing 1 JDBC statements
+	769500 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG hql:58 - HQL : from Department
+2026-01-08 12:49:19 DEBUG ast:177 - SqmStatement Tree :
+    -> [select]
+      -> [query-spec]
+        -> [select]
+          -> [selection]
+            -> [root] - `com.example.hibernate.entity.Department(4)`
+            <- [root] - `com.example.hibernate.entity.Department(4)`
+          <- [selection]
+        <- [select]
+        -> [from]
+          -> [root] - `com.example.hibernate.entity.Department(4)`
+          <- [root] - `com.example.hibernate.entity.Department(4)`
+        <- [from]
+      <- [query-spec]
+    <- [select]
+
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : d1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Department(4))] with identifierForTableGroup [com.example.hibernate.entity.Department] for NavigablePath [com.example.hibernate.entity.Department] 
+2026-01-08 12:49:19 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Department(4)]
+ |  +-DelayedCollectionFetch [com.example.hibernate.entity.Department(4).employees]
+ |  \-BasicFetch [com.example.hibernate.entity.Department(4).name]
+
+2026-01-08 12:49:19 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (d1 : com.example.hibernate.entity.Department(4)) {
+          primaryTableReference : departments as d1_0
+        }
+      }
+    }
+
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        d1_0.id,
+        d1_0.name 
+    from
+        departments d1_0
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Department(4).employees -> DelayedCollectionInitializer(com.example.hibernate.entity.Department(4).employees)@564059141 (PluralAttribute(com.example.hibernate.entity.Department.employees))
+	  com.example.hibernate.entity.Department(4) -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Department(4))@1660124157 (SingleTableEntityPersister(com.example.hibernate.entity.Department))
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	630900 ns acquiring 1 JDBC connections
+	605900 ns releasing 1 JDBC connections
+	693700 ns preparing 1 JDBC statements
+	595800 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : c1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Customer)] with identifierForTableGroup [com.example.hibernate.entity.Customer] for NavigablePath [com.example.hibernate.entity.Customer] 
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : o1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@2e66f1bd] with identifierForTableGroup [com.example.hibernate.entity.Customer.orders] for NavigablePath [com.example.hibernate.entity.Customer.orders] 
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Customer.orders.{element})] with identifierForTableGroup [com.example.hibernate.entity.Customer.orders.{element}] for NavigablePath [com.example.hibernate.entity.Customer.orders.{element}] 
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@61d6c8c4] with identifierForTableGroup [com.example.hibernate.entity.Customer.orders.{element}.customer] for NavigablePath [com.example.hibernate.entity.Customer.orders.{element}.customer] 
+2026-01-08 12:49:19 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Customer]
+ |  +-BasicFetch [com.example.hibernate.entity.Customer.email]
+ |  +-BasicFetch [com.example.hibernate.entity.Customer.name]
+ |  \-EagerCollectionFetch [com.example.hibernate.entity.Customer.orders]
+ |  |  \-EntityFetchJoinedImpl [com.example.hibernate.entity.Customer.orders.{element}]
+ |  |  |  +-CircularBiDirectionalFetchImpl [com.example.hibernate.entity.Customer.orders.{element}.customer]
+ |  |  |  +-BasicFetch [com.example.hibernate.entity.Customer.orders.{element}.orderDate]
+ |  |  |  +-BasicFetch [com.example.hibernate.entity.Customer.orders.{element}.status]
+ |  |  |  \-BasicFetch [com.example.hibernate.entity.Customer.orders.{element}.total]
+
+2026-01-08 12:49:19 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (c1 : com.example.hibernate.entity.Customer) {
+          primaryTableReference : customers as c1_0
+          TableGroupJoins {
+            left  join OneToManyTableGroup (o1 : com.example.hibernate.entity.Customer.orders) {
+              primaryTableReference : orders as o1_0
+              TableGroupJoins {
+                left  join LazyTableGroup (c2 : com.example.hibernate.entity.Customer.orders.{element}.customer) {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.name,
+        o1_0.customer_id,
+        o1_0.id,
+        o1_0.order_date,
+        o1_0.status,
+        o1_0.total 
+    from
+        customers c1_0 
+    left join
+        orders o1_0 
+            on c1_0.id=o1_0.customer_id 
+    where
+        c1_0.id=?
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Customer.orders -> SetInitializer(com.example.hibernate.entity.Customer.orders)@403032668 (PluralAttribute(com.example.hibernate.entity.Customer.orders))
+	  com.example.hibernate.entity.Customer -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Customer)@1046597629 (SingleTableEntityPersister(com.example.hibernate.entity.Customer))
+	  com.example.hibernate.entity.Customer.orders.{element} -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Customer.orders.{element})@825537121 (EntityCollectionPart(com.example.hibernate.entity.Customer.orders#{element})@178664422)
+
+2026-01-08 12:49:19 DEBUG ResultsHelper:107 - Collection fully initialized: [com.example.hibernate.entity.Customer.orders with owner id '1']
+2026-01-08 12:49:19 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:19 DEBUG Collections:189 - Collection found: [com.example.hibernate.entity.Customer.orders with owner id '1'], was: [com.example.hibernate.entity.Customer.orders with owner id '1'] (initialized)
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 1 updates, 0 deletions to 3 objects
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+2026-01-08 12:49:19 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Order{total=349.50, id=2, orderDate=2026-01-08T12:49:18.608567, customer=com.example.hibernate.entity.Customer#1, status=PENDING}
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Order{total=1999.99, id=1, orderDate=2026-01-08T12:49:18.409655, customer=com.example.hibernate.entity.Customer#1, status=PAID}
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Customer{name=Acme Corp International, orders=[com.example.hibernate.entity.Order#1, com.example.hibernate.entity.Order#2], id=1, email=contact@acme.com}
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    update
+        customers 
+    set
+        email=?,
+        name=? 
+    where
+        id=?
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	568500 ns acquiring 1 JDBC connections
+	1590800 ns releasing 1 JDBC connections
+	234800 ns preparing 2 JDBC statements
+	2951800 ns executing 2 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	11672100 ns executing 1 flushes (flushing a total of 3 entities and 1 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : o1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Order)] with identifierForTableGroup [com.example.hibernate.entity.Order] for NavigablePath [com.example.hibernate.entity.Order] 
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@53df7e67] with identifierForTableGroup [com.example.hibernate.entity.Order.customer] for NavigablePath [com.example.hibernate.entity.Order.customer] 
+2026-01-08 12:49:19 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Order]
+ |  +-EntityDelayedFetchImpl [com.example.hibernate.entity.Order.customer]
+ |  +-BasicFetch [com.example.hibernate.entity.Order.orderDate]
+ |  +-BasicFetch [com.example.hibernate.entity.Order.status]
+ |  \-BasicFetch [com.example.hibernate.entity.Order.total]
+
+2026-01-08 12:49:19 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (o1 : com.example.hibernate.entity.Order) {
+          primaryTableReference : orders as o1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (c1 : com.example.hibernate.entity.Order.customer) {
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        o1_0.id,
+        o1_0.customer_id,
+        o1_0.order_date,
+        o1_0.status,
+        o1_0.total 
+    from
+        orders o1_0 
+    where
+        o1_0.id=?
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Order -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Order)@433545478 (SingleTableEntityPersister(com.example.hibernate.entity.Order))
+	  com.example.hibernate.entity.Order.customer -> EntityDelayedFetchInitializer(com.example.hibernate.entity.Order.customer)@1065842699 (ToOneAttributeMapping(NavigableRole[com.example.hibernate.entity.Order.customer])@1059776883)
+
+2026-01-08 12:49:19 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2026-01-08 12:49:19 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Order{total=349.50, id=2, orderDate=2026-01-08T12:49:18.608567300, customer=<uninitialized>, status=CANCELLED}
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    update
+        orders 
+    set
+        customer_id=?,
+        order_date=?,
+        status=?,
+        total=? 
+    where
+        id=?
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	1301700 ns acquiring 1 JDBC connections
+	1459200 ns releasing 1 JDBC connections
+	251600 ns preparing 2 JDBC statements
+	2602000 ns executing 2 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	3822000 ns executing 1 flushes (flushing a total of 1 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : e1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Employee)] with identifierForTableGroup [com.example.hibernate.entity.Employee] for NavigablePath [com.example.hibernate.entity.Employee] 
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@175957b6] with identifierForTableGroup [com.example.hibernate.entity.Employee.department] for NavigablePath [com.example.hibernate.entity.Employee.department] 
+2026-01-08 12:49:19 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Employee]
+ |  +-EntityDelayedFetchImpl [com.example.hibernate.entity.Employee.department]
+ |  +-BasicFetch [com.example.hibernate.entity.Employee.email]
+ |  +-BasicFetch [com.example.hibernate.entity.Employee.firstName]
+ |  \-BasicFetch [com.example.hibernate.entity.Employee.lastName]
+
+2026-01-08 12:49:19 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (e1 : com.example.hibernate.entity.Employee) {
+          primaryTableReference : employees as e1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (d1 : com.example.hibernate.entity.Employee.department) {
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        e1_0.id,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.first_name,
+        e1_0.last_name 
+    from
+        employees e1_0 
+    where
+        e1_0.id=?
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Employee.department -> EntityDelayedFetchInitializer(com.example.hibernate.entity.Employee.department)@1493625851 (ToOneAttributeMapping(NavigableRole[com.example.hibernate.entity.Employee.department])@1631904921)
+	  com.example.hibernate.entity.Employee -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Employee)@284957218 (SingleTableEntityPersister(com.example.hibernate.entity.Employee))
+
+2026-01-08 12:49:19 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2026-01-08 12:49:19 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Employee{firstName=Alice, lastName=Gupta, id=1, department=<uninitialized>, email=alice@example.com}
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    update
+        employees 
+    set
+        department_id=?,
+        email=?,
+        first_name=?,
+        last_name=? 
+    where
+        id=?
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	1422000 ns acquiring 1 JDBC connections
+	1570400 ns releasing 1 JDBC connections
+	332800 ns preparing 2 JDBC statements
+	3133700 ns executing 2 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	4272600 ns executing 1 flushes (flushing a total of 1 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : d1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Department)] with identifierForTableGroup [com.example.hibernate.entity.Department] for NavigablePath [com.example.hibernate.entity.Department] 
+2026-01-08 12:49:19 DEBUG create:30 - Created new SQL alias : e1_0
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@45273d40] with identifierForTableGroup [com.example.hibernate.entity.Department.employees] for NavigablePath [com.example.hibernate.entity.Department.employees] 
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [StandardTableGroup(com.example.hibernate.entity.Department.employees.{element})] with identifierForTableGroup [com.example.hibernate.entity.Department.employees.{element}] for NavigablePath [com.example.hibernate.entity.Department.employees.{element}] 
+2026-01-08 12:49:19 DEBUG create:121 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@2a504ea7] with identifierForTableGroup [com.example.hibernate.entity.Department.employees.{element}.department] for NavigablePath [com.example.hibernate.entity.Department.employees.{element}.department] 
+2026-01-08 12:49:19 DEBUG AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.example.hibernate.entity.Department]
+ |  +-EagerCollectionFetch [com.example.hibernate.entity.Department.employees]
+ |  |  \-EntityFetchJoinedImpl [com.example.hibernate.entity.Department.employees.{element}]
+ |  |  |  +-CircularBiDirectionalFetchImpl [com.example.hibernate.entity.Department.employees.{element}.department]
+ |  |  |  +-BasicFetch [com.example.hibernate.entity.Department.employees.{element}.email]
+ |  |  |  +-BasicFetch [com.example.hibernate.entity.Department.employees.{element}.firstName]
+ |  |  |  \-BasicFetch [com.example.hibernate.entity.Department.employees.{element}.lastName]
+ |  \-BasicFetch [com.example.hibernate.entity.Department.name]
+
+2026-01-08 12:49:19 DEBUG tree:43 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (d1 : com.example.hibernate.entity.Department) {
+          primaryTableReference : departments as d1_0
+          TableGroupJoins {
+            left  join OneToManyTableGroup (e1 : com.example.hibernate.entity.Department.employees) {
+              primaryTableReference : employees as e1_0
+              TableGroupJoins {
+                left  join LazyTableGroup (d2 : com.example.hibernate.entity.Department.employees.{element}.department) {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        d1_0.id,
+        e1_0.department_id,
+        e1_0.id,
+        e1_0.email,
+        e1_0.first_name,
+        e1_0.last_name,
+        d1_0.name 
+    from
+        departments d1_0 
+    left join
+        employees e1_0 
+            on d1_0.id=e1_0.department_id 
+    where
+        d1_0.id=?
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Department.employees.{element} -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Department.employees.{element})@1738496497 (EntityCollectionPart(com.example.hibernate.entity.Department.employees#{element})@1801330629)
+	  com.example.hibernate.entity.Department.employees -> SetInitializer(com.example.hibernate.entity.Department.employees)@1207935560 (PluralAttribute(com.example.hibernate.entity.Department.employees))
+	  com.example.hibernate.entity.Department -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Department)@413935078 (SingleTableEntityPersister(com.example.hibernate.entity.Department))
+
+2026-01-08 12:49:19 DEBUG ResultsHelper:107 - Collection fully initialized: [com.example.hibernate.entity.Department.employees with owner id '1']
+2026-01-08 12:49:19 DEBUG CollectionEntry:268 - Reset storedSnapshot to {} for CollectionEntry[com.example.hibernate.entity.Department.employees with owner id '1']
+2026-01-08 12:49:19 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:19 DEBUG Collections:189 - Collection found: [com.example.hibernate.entity.Department.employees with owner id '1'], was: [com.example.hibernate.entity.Department.employees with owner id '1'] (initialized)
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 1 updates, 0 deletions to 3 objects
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+2026-01-08 12:49:19 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Employee{firstName=Bob, lastName=Singh, id=2, department=com.example.hibernate.entity.Department#1, email=bob@example.com}
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Employee{firstName=Alice, lastName=Gupta, id=1, department=com.example.hibernate.entity.Department#1, email=alice@example.com}
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Department{name=Engineering & R&D, id=1, employees=[]}
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    update
+        departments 
+    set
+        name=? 
+    where
+        id=?
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	1320800 ns acquiring 1 JDBC connections
+	941000 ns releasing 1 JDBC connections
+	290400 ns preparing 2 JDBC statements
+	3791200 ns executing 2 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	4594600 ns executing 1 flushes (flushing a total of 3 entities and 1 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        o1_0.id,
+        o1_0.customer_id,
+        o1_0.order_date,
+        o1_0.status,
+        o1_0.total 
+    from
+        orders o1_0 
+    where
+        o1_0.id=?
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Order -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Order)@930429801 (SingleTableEntityPersister(com.example.hibernate.entity.Order))
+	  com.example.hibernate.entity.Order.customer -> EntityDelayedFetchInitializer(com.example.hibernate.entity.Order.customer)@1613502078 (ToOneAttributeMapping(NavigableRole[com.example.hibernate.entity.Order.customer])@1059776883)
+
+2026-01-08 12:49:19 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2026-01-08 12:49:19 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Order{total=1999.99, id=1, orderDate=2026-01-08T12:49:18.409655, customer=<uninitialized>, status=PAID}
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    delete 
+    from
+        orders 
+    where
+        id=?
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	793300 ns acquiring 1 JDBC connections
+	904900 ns releasing 1 JDBC connections
+	205600 ns preparing 2 JDBC statements
+	2167700 ns executing 2 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	3609100 ns executing 1 flushes (flushing a total of 1 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG TransactionImpl:75 - begin transaction
+2026-01-08 12:49:19 DEBUG exec:322 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    select
+        e1_0.id,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.first_name,
+        e1_0.last_name 
+    from
+        employees e1_0 
+    where
+        e1_0.id=?
+2026-01-08 12:49:19 DEBUG results:76 - Initializer list:
+	  com.example.hibernate.entity.Employee.department -> EntityDelayedFetchInitializer(com.example.hibernate.entity.Employee.department)@1348064152 (ToOneAttributeMapping(NavigableRole[com.example.hibernate.entity.Employee.department])@1631904921)
+	  com.example.hibernate.entity.Employee -> EntityJoinedFetchInitializer(com.example.hibernate.entity.Employee)@1528045817 (SingleTableEntityPersister(com.example.hibernate.entity.Employee))
+
+2026-01-08 12:49:19 DEBUG TransactionImpl:88 - committing transaction
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:130 - Processing flush-time cascades
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:188 - Dirty checking collections
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:105 - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2026-01-08 12:49:19 DEBUG AbstractFlushingEventListener:112 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2026-01-08 12:49:19 DEBUG EntityPrinter:102 - Listing entities:
+2026-01-08 12:49:19 DEBUG EntityPrinter:113 - com.example.hibernate.entity.Employee{firstName=Bob, lastName=Singh, id=2, department=<uninitialized>, email=bob@example.com}
+2026-01-08 12:49:19 DEBUG SQL:130 - 
+    delete 
+    from
+        employees 
+    where
+        id=?
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG LogicalConnectionManagedImpl:182 - Initiating JDBC connection release from afterTransaction
+2026-01-08 12:49:19 DEBUG metrics:279 - HHH000401: Logging session metrics:
+	824700 ns acquiring 1 JDBC connections
+	1530300 ns releasing 1 JDBC connections
+	243700 ns preparing 2 JDBC statements
+	2793600 ns executing 2 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	3397100 ns executing 1 flushes (flushing a total of 1 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-01-08 12:49:19 DEBUG JdbcEventHandler:127 - Aborting batches as part of ResourceRegistryStandardImpl#releaseResources
+2026-01-08 12:49:19 DEBUG SessionFactoryImpl:815 - HHH000031: Closing factory
+2026-01-08 12:49:19 DEBUG cache:204 - Closing QueryInterpretationCache
+2026-01-08 12:49:19 DEBUG TypeConfiguration$Scope:608 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@1d008e61] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@26d73519]
+2026-01-08 12:49:19 DEBUG AbstractServiceRegistryImpl:410 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2026-01-08 12:49:19 DEBUG pooling:606 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hibernate_demo]
+2026-01-08 12:49:19 DEBUG BootstrapServiceRegistryImpl:295 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
