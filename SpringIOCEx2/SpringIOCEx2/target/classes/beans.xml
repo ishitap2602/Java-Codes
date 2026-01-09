@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<bean id="cmp" class="com.test.Company">
+
+		<property name="id" value="111"></property>
+		<property name="name" value="XYZ"></property>
+		<property name="noOfDepartment" value="1000"></property>
+	</bean>
+	
+	<bean id="dept" class="com.test.Department">
+
+		<property name="id" value="222"></property>
+		<property name="name" value="Delivery"></property>
+		<property name="noOfEmployees" value="200"></property>
+	</bean>
+	
+	<bean id="emp" class="com.test.Employee">
+
+		<property name="id" value="1"></property>
+		<property name="name" value="Jay"></property>
+		<property name="dept"><ref bean="dept" /></property>
+		<property name="cmp"><ref bean="cmp" /></property>
+	</bean>
+
+</beans>
