@@ -1,0 +1,76 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    
+    <bean id="statsDataSource" class="org.springframework.jdbc.datasource.SingleConnectionDataSource">
+        <!-- Use modern MySQL driver -->
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/cricket_stats?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root@39"/>
+        <!-- SingleConnectionDataSource specific flags -->
+        <property name="suppressClose" value="true"/>   <!-- Keeps connection open when close() is called -->
+        <property name="autoCommit" value="true"/>
+    </bean>
+
+    <!-- NamedParameterJdbcTemplate bound to statsDataSource -->
+    <bean id="statsNamedParameterJdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+        <constructor-arg ref="statsDataSource"/>
+    </bean>
+
+    <!--
+    <bean id="statsJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="statsDataSource"/>
+    </bean>
+    -->
+
+    
+    <bean id="selectionDataSource" class="org.springframework.jdbc.datasource.SingleConnectionDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/team_selection?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+        <property name="suppressClose" value="true"/>
+        <property name="autoCommit" value="true"/>
+    </bean>
+
+    <!-- NamedParameterJdbcTemplate bound to selectionDataSource -->
+    <bean id="selectionNamedParameterJdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+        <constructor-arg ref="selectionDataSource"/>
+    </bean>
+
+    
+    <!--
+    <bean id="selectionJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="selectionDataSource"/>
+    </bean>
+    -->
+
+    <!-- PlayerDao uses cricket_stats DB -->
+    <bean id="playerDao" class="com.example.cricket.dao.PlayerDao">
+        <!-- If your DAO has a constructor for JdbcTemplate, prefer constructor-arg -->
+        <!-- For NamedParameterJdbcTemplate, expose a setter like setNamedParameterJdbcTemplate(...) -->
+        <property name="namedParameterJdbcTemplate" ref="statsNamedParameterJdbcTemplate"/>
+    </bean>
+
+    <!-- TeamDao uses team_selection DB -->
+    <bean id="teamDao" class="com.example.cricket.dao.TeamDao">
+        <property name="namedParameterJdbcTemplate" ref="selectionNamedParameterJdbcTemplate"/>
+    </bean>
+
+    <!-- Service that orchestrates selection (optional if using annotations) -->
+    <bean id="teamSelectionService" class="com.example.cricket.service.TeamSelectionService">
+        <property name="playerDao" ref="playerDao"/>
+        <property name="teamDao" ref="teamDao"/>
+    </bean>
+
+    
+</beans>

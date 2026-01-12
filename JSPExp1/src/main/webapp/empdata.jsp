@@ -9,7 +9,7 @@
 <body>
 <h1>EMPLOYEE DATA</h1>
 
-<jsp:useBean id="emp" class="com.test.Employee"></jsp:useBean>
+<jsp:useBean id="emp" class="com.test.doa.Employee"></jsp:useBean>
 <jsp:setProperty property="*" name="emp"/>
 
 ID:<jsp:getProperty property="id" name="emp"/>
