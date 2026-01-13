@@ -1,6 +1,9 @@
 package com.test.dao;
 
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.test.model.Customer;
 import com.test.model.CustomerMapper;
 import java.util.List;
@@ -9,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.*;
 
 @Component
+@Transactional(propagation = Propagation.NEVER)
 public class CustomerDao {
 	private JdbcTemplate jdbcTemplate;
 	

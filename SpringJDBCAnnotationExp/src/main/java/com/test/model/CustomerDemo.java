@@ -15,13 +15,13 @@ public class CustomerDemo {
 		AnnotationConfigApplicationContext ctx=new AnnotationConfigApplicationContext(DBConfig.class);
 		CustomerDao cdao = ctx.getBean(CustomerDao.class);
 		Customer obj1 = new Customer();
-		obj1.setC_first_name("Rahul");
-		obj1.setC_last_name("Shetty");
+		obj1.setC_first_name("IShita");
+		obj1.setC_last_name("Patel");
 		obj1.setC_location("Bangalore");
 		
 //		cdao.createCustomer(obj1);
-List<Customer>list = cdao.getAllCustomers();
-	list.forEach(System.out::println);
+		List<Customer>list = cdao.getAllCustomers();
+		 list.forEach(System.out::println);
 //			
 		
 		
