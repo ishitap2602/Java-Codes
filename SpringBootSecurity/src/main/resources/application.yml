@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: SpringBootSecurity
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+
+server:
+  port: 7979	

@@ -17,5 +17,9 @@ public interface StudentDAO {
 	public List<Student> deleteStudentById(int id);
 	
 	public List<Student> getAllStudents();
+
+	public Optional<Student> getStudentByName(String name);
+	
+	public List<Student> getStudentByDepartment(String department);
 	
 }

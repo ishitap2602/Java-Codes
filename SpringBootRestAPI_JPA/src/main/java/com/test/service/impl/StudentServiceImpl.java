@@ -42,5 +42,14 @@ public Optional<Student> getStudentById(int id) {
 	public List<Student> getAllStudents() {
 		return dao.getAllStudents();
 	}
+	@Override
+	public Optional<Student> getStudentByName(String name) {
+		return dao.getStudentByName(name);
+	}
+ 
+	@Override
+	public List<Student> getStudentByDepartment(String department) {
+		return dao.getStudentByDepartment(department);
+	}
 
 }

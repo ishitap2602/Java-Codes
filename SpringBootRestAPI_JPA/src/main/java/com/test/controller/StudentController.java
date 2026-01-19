@@ -104,5 +104,30 @@ public class StudentController {
 		}
 
 	}
-
+	
+	@GetMapping("/getByName/{name}")
+	@Operation(method="GetStudentByNameMethod" ,description = " FETCH STUDENT")
+	@Tag(name="HTTP GET" , description= "FETCH A STUDENT RECORD BY NAME")
+	public ResponseEntity<Optional<Student>> getStudentByName(@PathVariable String name){
+		Optional<Student> obj = service.getStudentByName(name);
+		if(name == null) {
+			return new ResponseEntity<>(obj, HttpStatus.NOT_FOUND);
+		}else {
+			return new ResponseEntity<>(obj, HttpStatus.ACCEPTED);
+		}
+		
+	}
+	
+	@GetMapping("/getByDepartment/{department}")
+	@Operation(method="GetStudentByDeptMethod" ,description = " FETCH STUDENT")
+	@Tag(name="HTTP GET" , description= "FETCH A STUDENT RECORD BY DEPARTEMENT")
+	public ResponseEntity<List<Student>> getStudentByDepartment(@PathVariable String department){
+		List<Student> obj = service.getStudentByDepartment(department);
+		if(obj.isEmpty()) {
+			return new ResponseEntity<>(obj, HttpStatus.NOT_FOUND);
+		}else {
+			return new ResponseEntity<>(obj, HttpStatus.ACCEPTED);
+		}
+		
+	}
 }
